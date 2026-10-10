@@ -42,7 +42,7 @@ Laporan disimpan per mode di `/var/log/hosting-monitor/` dengan nama `report-YYY
 
 ## Dashboard Grafana
 
-`dashboard_grafana.json` mendefinisikan dashboard **HOSTING SERVER 4** dengan rentang waktu awal enam jam terakhir dan refresh otomatis setiap menit. Variabel dashboard memilih server (`server`) dan instance Node Exporter (`instance`); panel Prometheus difilter berdasarkan instance terpilih.
+`dashboard_grafana.json` mendefinisikan dashboard dengan rentang waktu awal enam jam terakhir dan refresh otomatis setiap menit. Variabel dashboard memilih server (`server`) dan instance Node Exporter (`instance`); panel Prometheus difilter berdasarkan instance terpilih.
 
 Dashboard disusun dalam tiga bagian:
 
