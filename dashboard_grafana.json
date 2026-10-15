@@ -19,12 +19,12 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "links": [],
+  "links": [ ],
   "panels": [
     {
       "fieldConfig": {
-        "defaults": {},
-        "overrides": []
+        "defaults": { },
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 3,
@@ -49,7 +49,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -57,7 +57,7 @@
             "mode": "thresholds"
           },
           "decimals": 0,
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "0",
           "thresholds": {
             "mode": "absolute",
@@ -78,7 +78,7 @@
           },
           "unit": "short"
         },
-        "overrides": []
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 5,
@@ -120,7 +120,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -128,7 +128,7 @@
             "mode": "thresholds"
           },
           "decimals": 2,
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "No data",
           "thresholds": {
             "mode": "absolute",
@@ -141,7 +141,7 @@
           },
           "unit": "bytes"
         },
-        "overrides": []
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 5,
@@ -183,7 +183,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -191,7 +191,7 @@
             "mode": "thresholds"
           },
           "decimals": 2,
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "No data",
           "thresholds": {
             "mode": "absolute",
@@ -212,7 +212,7 @@
           },
           "unit": "bytes"
         },
-        "overrides": []
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 5,
@@ -254,7 +254,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -262,7 +262,7 @@
             "mode": "thresholds"
           },
           "decimals": 0,
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "No data",
           "thresholds": {
             "mode": "absolute",
@@ -283,7 +283,7 @@
           },
           "unit": "s"
         },
-        "overrides": []
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 5,
@@ -325,7 +325,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -339,11 +339,11 @@
             },
             "filterable": true,
             "footer": {
-              "reducers": []
+              "reducers": [ ]
             },
             "inspect": false
           },
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "-",
           "thresholds": {
             "mode": "absolute",
@@ -512,8 +512,8 @@
     },
     {
       "fieldConfig": {
-        "defaults": {},
-        "overrides": []
+        "defaults": { },
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 3,
@@ -538,7 +538,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -546,7 +546,7 @@
             "fixedColor": "green",
             "mode": "fixed"
           },
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "-",
           "thresholds": {
             "mode": "absolute",
@@ -558,7 +558,7 @@
             ]
           }
         },
-        "overrides": []
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 5,
@@ -599,7 +599,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -607,7 +607,7 @@
             "fixedColor": "green",
             "mode": "fixed"
           },
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "-",
           "thresholds": {
             "mode": "absolute",
@@ -619,7 +619,7 @@
             ]
           }
         },
-        "overrides": []
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 5,
@@ -660,7 +660,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -674,11 +674,11 @@
             },
             "filterable": true,
             "footer": {
-              "reducers": []
+              "reducers": [ ]
             },
             "inspect": false
           },
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "-",
           "thresholds": {
             "mode": "absolute",
@@ -833,7 +833,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -841,7 +841,7 @@
             "fixedColor": "red",
             "mode": "fixed"
           },
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "-",
           "thresholds": {
             "mode": "absolute",
@@ -853,7 +853,7 @@
             ]
           }
         },
-        "overrides": []
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 5,
@@ -895,7 +895,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -903,7 +903,7 @@
             "fixedColor": "gray",
             "mode": "fixed"
           },
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "-",
           "thresholds": {
             "mode": "absolute",
@@ -915,7 +915,7 @@
             ]
           }
         },
-        "overrides": []
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 5,
@@ -955,8 +955,8 @@
     },
     {
       "fieldConfig": {
-        "defaults": {},
-        "overrides": []
+        "defaults": { },
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 3,
@@ -981,7 +981,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -989,7 +989,7 @@
             "mode": "thresholds"
           },
           "decimals": 0,
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "0",
           "thresholds": {
             "mode": "absolute",
@@ -1006,7 +1006,7 @@
           },
           "unit": "short"
         },
-        "overrides": []
+        "overrides": [ ]
       },
       "gridPos": {
         "h": 5,
@@ -1048,7 +1048,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "ffz8uset26znkd"
+        "uid": "${DS_PROMETHEUS}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1062,11 +1062,11 @@
             },
             "filterable": true,
             "footer": {
-              "reducers": []
+              "reducers": [ ]
             },
             "inspect": false
           },
-          "mappings": [],
+          "mappings": [ ],
           "noValue": "-",
           "thresholds": {
             "mode": "absolute",
@@ -1219,18 +1219,14 @@
   "templating": {
     "list": [
       {
-        "current": {
-          "text": "jetyog.jetorbit.vps",
-          "value": "jetyog.jetorbit.vps"
-        },
         "datasource": {
           "type": "prometheus",
-          "uid": "ffz8uset26znkd"
+          "uid": "${DS_PROMETHEUS}"
         },
         "includeAll": false,
         "label": "Server",
         "name": "server",
-        "options": [],
+        "options": [ ],
         "query": "label_values(node_uname_info, nodename)",
         "refresh": 1,
         "regexApplyTo": "value",
@@ -1238,19 +1234,15 @@
         "type": "query"
       },
       {
-        "current": {
-          "text": "jetyog.xaas.web.id:9100",
-          "value": "jetyog.xaas.web.id:9100"
-        },
         "datasource": {
           "type": "prometheus",
-          "uid": "ffz8uset26znkd"
+          "uid": "${DS_PROMETHEUS}"
         },
         "hide": 2,
         "includeAll": false,
         "label": "Instance",
         "name": "instance",
-        "options": [],
+        "options": [ ],
         "query": "label_values(node_uname_info{nodename=\"$server\"}, instance)",
         "refresh": 1,
         "regexApplyTo": "value",
@@ -1274,8 +1266,18 @@
     ]
   },
   "timezone": "browser",
-  "title": "HOSTING SERVER 4",
-  "uid": "hosting-storage-4",
+  "title": "Custom Web Hosting Monitoring",
+  "uid": "custom-webhost-monitoring",
   "version": 7,
-  "weekStart": ""
+  "weekStart": "",
+  "__inputs": [
+    {
+      "name": "DS_PROMETHEUS",
+      "label": "Prometheus-compatible datasource",
+      "description": "Select the datasource to use for all Hosting Monitor panels and variables.",
+      "type": "datasource",
+      "pluginId": "prometheus",
+      "pluginName": "Prometheus"
+    }
+  ]
 }
